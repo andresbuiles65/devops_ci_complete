@@ -46,7 +46,7 @@ public class InvoiceRestController {
     @Autowired
     InvoiceResposeMapper irspm;
     
-    @ApiOperation(value = "Return all transaction bundled into Response", notes = "Return 204 if no data found")
+    @ApiOperation(value = "With pipelines", notes = "Change using continous integration")
     @ApiResponses(value = {
         @ApiResponse(code = 204, message = "There are not transactions change with webhooks"),
         @ApiResponse(code = 500, message = "Internal error test web hooks")})
