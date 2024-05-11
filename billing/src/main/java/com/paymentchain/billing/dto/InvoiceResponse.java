@@ -20,7 +20,7 @@ public class InvoiceResponse {
    private long invoiceId;
      @ApiModelProperty(name = "customer", required = true,example = "1", value = "Unique Id of customer taht represent the owner of invoice")
    private long customer;
-      @ApiModelProperty(name = "number", required = true,example = "TFS2548975",value = "Bussines number that identified a invoice",allowEmptyValue = false)
+      @ApiModelProperty(name = "number", required = true,example = "Slack notification CI-CD",value = "Bussines number that identified a invoice",allowEmptyValue = false)
    private String number;
        @ApiModelProperty(name = "detail", required = false,example = "Professional services")
    private String detail;

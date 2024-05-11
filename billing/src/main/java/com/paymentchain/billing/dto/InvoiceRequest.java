@@ -21,7 +21,7 @@ public class InvoiceRequest {
     private long customer;
      @ApiModelProperty(name = "number", required = true,example = "2548975",value = "Bussines number that identified a invoice",allowEmptyValue = false)
   private String number;
-      @ApiModelProperty(name = "detail", required = false,example = "Professional services")
+      @ApiModelProperty(name = "detail", required = false,example = "Example notifications Slack")
    private String detail;
       @ApiModelProperty(name = "amount", required = true,example = "3659.23")
    private double amount; 
