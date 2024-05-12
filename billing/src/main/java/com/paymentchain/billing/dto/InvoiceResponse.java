@@ -22,7 +22,7 @@ public class InvoiceResponse {
    private long customer;
       @ApiModelProperty(name = "number", required = true,example = "Slack notification CI-CD",value = "Bussines number that identified a invoice",allowEmptyValue = false)
    private String number;
-       @ApiModelProperty(name = "detail", required = false,example = "Professional services")
+       @ApiModelProperty(name = "detail", required = false,example = "Second choices Slack notification CI-CD")
    private String detail;
         @ApiModelProperty(name = "amount", required = true,example = "3659.23")
    private double amount; 
